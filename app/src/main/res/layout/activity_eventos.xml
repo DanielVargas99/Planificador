@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Eventos">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Registro de actividades para el:"
+        android:textColor="#4CAF50"
+        android:textSize="20dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#4CAF50"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textStyle="italic">
+    </TextView>
+
+    <EditText
+        android:id="@+id/NomAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la actividad"
+        android:textSize="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic">
+    </EditText>
+
+    <TextView
+        android:id="@+id/Hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora de la actividad"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic">
+    </TextView>
+
+    <Button
+        android:id="@+id/RegAct"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/acme"
+        android:text="Añadir Actividad"
+        android:textSize="20dp"></Button>
+
+    <Button
+        android:id="@+id/ConAct"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Consultar actividades"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/acme">
+    </Button>
+
+    <Button
+        android:id="@+id/ModAct"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/acme"
+        android:text="Modificar Actividad"
+        android:textSize="20dp">
+    </Button>
+
+    <Button
+        android:id="@+id/ElimAct"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/acme"
+        android:text="Eliminar Actividad"
+        android:textSize="20dp">
+    </Button>
+
+</LinearLayout>

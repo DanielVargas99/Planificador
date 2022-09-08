@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/degradado_main"
+    tools:context=".RegistrarActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="Registra tus datos"
+        android:textSize="30dp"
+        android:textColor="#FFF"
+        android:textStyle="bold">
+    </TextView>
+
+    <EditText
+        android:id="@+id/Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:textSize="30dp"
+        android:layout_marginTop="150dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:layout_marginHorizontal="15dp"
+        android:textStyle="italic">
+    </EditText>
+
+    <EditText
+        android:id="@+id/Username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:textSize="30dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:layout_marginHorizontal="15dp"
+        android:textStyle="italic">
+    </EditText>
+
+    <EditText
+        android:id="@+id/Password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:textSize="30dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:layout_marginHorizontal="15dp"
+        android:textStyle="italic">
+    </EditText>
+
+    <EditText
+        android:id="@+id/RePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar Contraseña"
+        android:textSize="30dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:layout_marginHorizontal="15dp"
+        android:textStyle="italic">
+    </EditText>
+
+    <Button
+        android:id="@+id/BotonReg"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:textSize="20dp"
+        android:text="Registrarse"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/acme"
+        android:backgroundTint="#103b5c">
+    </Button>
+
+</LinearLayout>

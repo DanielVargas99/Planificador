@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Eliminar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminacion de actividades"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/ElimNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el nombre de la actividad"
+        android:textSize="23dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textStyle="italic">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Eliminar actividad del:"
+        android:textSize="23dp"
+        android:layout_marginTop="40dp"
+        android:textStyle="italic"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/HoraElim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora de la actividad"
+        android:textSize="23dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:gravity="center">
+    </TextView>
+
+    <Button
+        android:id="@+id/Eliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/acme"
+        android:text="Eliminar"
+        android:textSize="20dp"></Button>
+
+</LinearLayout>
